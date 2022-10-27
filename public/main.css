@@ -4,7 +4,7 @@
   }
   
   html {
-    background-color: #AFC2D5;
+    background-color: #2e6dac;
   }
   
   body {
@@ -16,7 +16,7 @@
   }
   
   header {
-    background-image: url('/images/forest-header.jpg');
+    
     background-size: cover;
     background-position: center;
     background-color: #000724;
