@@ -21,6 +21,6 @@ function getPartyMembers(party, db = connection) {
   return db('users').where('party', party)
 }
 
-function getLeader(db = connection) {
-  return db('users').where('roles', 'leader')
+function getLeader(party, db = connection) {
+  return db('users').where('roles', 'leader').where('party', party)
 }
