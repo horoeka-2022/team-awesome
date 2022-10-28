@@ -17,9 +17,9 @@ function getUser(id, db = connection) {
 }
 
 
-// function changeParty(users, db = connection) {
-//   return db('users').where({ users.party }).update({
-//     party: updatedLocation.name,
-//     description: updatedLocation.description,
-//   })
-// }
+function voteParty(users, db = connection) {
+  return db('users').where({ id:id }).update({
+    party: updatedLocation.name,
+    description: updatedLocation.description,
+  })
+}
