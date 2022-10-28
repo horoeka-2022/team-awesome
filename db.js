@@ -18,9 +18,9 @@ function getUser(id, db = connection) {
 }
 
 function getPartyMembers(party, db = connection) {
-  return db('users').where('party', party)
+  return db('users').where('party', party).where('roles', 'member')
 }
 
 function getLeader(party, db = connection) {
-  return db('users').where('roles', 'leader').where('party', party)
+  return db('users').where('roles', 'leader').where('party', party).first()
 }

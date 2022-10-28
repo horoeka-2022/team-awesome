@@ -27,8 +27,7 @@ router.get('/:party', async (req, res) => {
       leader: leader,
       members: members,
     }
-    console.log(viewData)
-    res.render(viewData)
+    res.render('party', viewData)
   } catch (error) {
     console.error(error.message)
   }

@@ -1,5 +1,8 @@
-   <ul>
-  {{#each users}}
-  <li>{{name}} ({{email}})</li>
-  {{/each}}
-</ul>
+<h1>{{leader.party}}</h1>
+<img src={{leader.img}} alt="supreme leader">
+<h2>{{leader.party}} Leader : {{leader.name}}</h2>
+<br>
+<h3>Members</h3>
+{{#each members}}
+  <p>{{name}}</p>
+{{/each}}
