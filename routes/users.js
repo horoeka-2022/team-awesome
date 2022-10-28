@@ -45,7 +45,7 @@ module.exports = router
    
 
 router.get('/vote', (req, res) => {
-  res.render('form')
+  res.render('vote')
 })
 
 router.post('/vote', (req, res) => {
