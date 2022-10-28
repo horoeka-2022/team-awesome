@@ -1,18 +1,10 @@
-   {{!-- <ul>
-  {{#each users}}
-  <li>{{name}} ({{email}})</li>
-  {{/each}}
-</ul> --}}
-{{!-- <img src="/images/IconG.png" alt="staricon" class="img-pic"> --}}
-<h1>{{partytitle}}party title</h1>
-<h2>{{partyleader}} party leader</h2>
-<img src="/images/hooded1.jpeg"{{leaderimage}} alt="leaderimage">
+<h1>{{leader.party}}</h1>
+<img src={{leader.img}} alt="supreme leader">
+<h2>{{leader.party}} Leader : {{leader.name}}</h2>
 <br>
-<h2>{{partymembers}}party members</h2>
-<ul>
-  {{#each users}}
-  <li>{{name}} ({{email}})</li>
-  {{/each}}
-</ul>
-<a class="nav" href="/">Home</a>
+<h3>Members</h3>
+{{#each members}}
+  <p>{{name}}</p>
+{{/each}}
 
+<a class="nav" href="/">Home</a>

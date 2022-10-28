@@ -8,6 +8,7 @@ exports.seed = async function (knex) {
       email: 'aardvark@example.org',
       party: 'rawtilians',
       roles: 'leader',
+      img: 'images/hooded8.jpg',
     },
     {
       id: 99902,
@@ -99,6 +100,7 @@ exports.seed = async function (knex) {
       email: 'mongoose@example.org',
       party: 'reptilians',
       roles: 'leader',
+      img: '/images/Reptilians.jpeg',
     },
     {
       id: 99915,
