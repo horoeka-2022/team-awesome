@@ -19,4 +19,12 @@ router.get('/', (req, res) => {
     })
    
 
+    router.get('/party', (req, res) => {
+      res.render('party')
+    })
+
+    router.get('/reptilian', (req, res) => {
+      res.render('reptilian')
+    })
+   
 module.exports = router
