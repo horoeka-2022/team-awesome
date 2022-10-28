@@ -5,6 +5,8 @@ const connection = require('knex')(config)
 module.exports = {
   getUser: getUser,
   getUsers: getUsers,
+  getPartyMembers,
+  getLeader,
 }
 
 function getUsers(db = connection) {
@@ -13,4 +15,12 @@ function getUsers(db = connection) {
 
 function getUser(id, db = connection) {
   return db('users').where('id', id).first()
+}
+
+function getPartyMembers(party, db = connection) {
+  return db('users').where('party', party)
+}
+
+function getLeader(db = connection) {
+  return db('users').where('roles', 'leader')
 }
