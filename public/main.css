@@ -57,6 +57,15 @@ h3 {
   text-transform: capitalize;
 }
 
+.titles{
+  display: inline-block;
+  padding-left: 20px;
+  color: rgb(20, 54, 16);
+  font-size: 3.5em;
+  text-transform: capitalize;
+}
+
+
   .img-pic {
     flex-basis: 40%;
   
@@ -67,8 +76,27 @@ h3 {
   }
   
   nav {
-    font-size: 20px;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
     width: 100%;
+    
+  }
+  
+  .nav2 {
+
+    font-size: 30px;
+    color:rgb(231, 7, 145);
+    
+  }
+  
+
+  .rav {
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    
   }
   
   /* nav a, .nav {
@@ -83,6 +111,8 @@ h3 {
   
   p {
     margin: 0;
+    font-size: 20px;
+    padding-left: 20px;;
   }
   
   .data {
