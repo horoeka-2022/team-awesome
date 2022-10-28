@@ -10,7 +10,7 @@ exports.seed = async function (knex) {
       roles: 'leader',
       img: 'images/hooded8.jpg',
       mission:
-        'Our Supreme Overlord has advised that the aliens will spare us if we adapt to their ways. Therefore, with the upcoming apocalypse, it is essential that each member taps into their inner self!  The aliens, much like us, believe in a higher power, enjoy fine cuisine and share an unparalleled appreciation for magnificent architecture. We intend on allocating funds to cater to these preferences. By building a giant monument to honour our future guests, and preparing the finest sacrifices to welcome their arrival, we will ensure the survival of the cult. A vote for us is a vote for salvation!',
+        "Let's all fuse with nature. Anyone who eats cooked food, or uses any hair or skin products doesn't understand the risks they are imposing on themselves and others! Raw is the way to go! We only consume what we gather from the ground, and it is never heated above room temperature. We intend on sharing this knowledge with the rest of the planet, and saving as many as possible! Vote for us and we will ensure you, and all your loved ones are protected from these hidden dangers!",
     },
     {
       id: 99902,
@@ -104,7 +104,7 @@ exports.seed = async function (knex) {
       roles: 'leader',
       img: '/images/Reptilians.jpeg',
       mission:
-        "Let's all fuse with nature. Anyone who eats cooked food, or uses any hair or skin products doesn't understand the risks they are imposing on themselves and others! Raw is the way to go! We only consume what we gather from the ground, and it is never heated above room temperature. We intend on sharing this knowledge with the rest of the planet, and saving as many as possible! Vote for us and we will ensure you, and all your loved ones are protected from these hidden dangers!",
+        'Our Supreme Overlord has advised that the aliens will spare us if we adapt to their ways. Therefore, with the upcoming apocalypse, it is essential that each member taps into their inner self!  The aliens, much like us, believe in a higher power, enjoy fine cuisine and share an unparalleled appreciation for magnificent architecture. We intend on allocating funds to cater to these preferences. By building a giant monument to honour our future guests, and preparing the finest sacrifices to welcome their arrival, we will ensure the survival of the cult. A vote for us is a vote for salvation!',
     },
     {
       id: 99915,
