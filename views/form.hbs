@@ -1,0 +1,16 @@
+
+
+<h2>Submit vote <span class="data">{{name}}</span></h2>
+
+<form method="POST" action="/vote" class="form">
+  <input type="hidden" name="id" value="{{id}}">
+
+  <label for="name">Leader Name</label>
+  <input type="text" id="name" name="name" placeholder="Leader name" value="{{name}}">
+  
+  {{!-- <label for="description">Description</label>
+  <textarea rows="4" id="description" name="description" placeholder="Location description">{{description}}</textarea> --}}
+  
+  <div></div>
+  <button>Submit</button>
+</form>

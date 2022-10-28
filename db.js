@@ -7,6 +7,7 @@ module.exports = {
   getUsers: getUsers,
   getPartyMembers,
   getLeader,
+  // voteForLeader: voteForLeader,
 }
 
 function getUsers(db = connection) {
@@ -24,3 +25,10 @@ function getPartyMembers(party, db = connection) {
 function getLeader(party, db = connection) {
   return db('users').where('roles', 'leader').where('party', party).first()
 }
+
+// function changeParty(users, db = connection) {
+//   return db('users').where({ users.party }).update({
+//     party: updatedLocation.name,
+//     description: updatedLocation.description,
+//   })
+// }
